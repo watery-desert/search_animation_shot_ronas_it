@@ -248,8 +248,7 @@ class _SearchWidgetState extends State<SearchWidget>
                                         child: Icon(FontAwesomeIcons.twitter),
                                       ),
                                       title: Text('watery_desert'),
-                                      subtitle:
-                                          Text('Follow me on twitter too'),
+                                      subtitle: Text('Follow me on twitter'),
                                     ),
                                     ListTile(
                                       leading: Padding(
@@ -257,7 +256,8 @@ class _SearchWidgetState extends State<SearchWidget>
                                         child: Icon(FontAwesomeIcons.github),
                                       ),
                                       title: Text('watery-desert'),
-                                      subtitle: Text('Follow me on github'),
+                                      subtitle: Text(
+                                          'Follow me and give me star on github'),
                                     ),
                                   ],
                                 ),
